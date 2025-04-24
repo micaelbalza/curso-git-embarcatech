@@ -1,0 +1,87 @@
+####################################
+#       Aluno: Micael Balza	   #
+####################################
+
+------------------------------- Lista de comandos------------------------------------------
+
+ 1 - mkdir curso-git-embarcatech
+ 2 - cd curso-git-embarcatech
+ 3 - git init
+ 4 - git config user.name "Micael Balza"
+ 5 - git config user.email "micaelbalza@hotmail.com"
+ 6 - echo "Nome: Micael Balza" > info_aluno.txt
+ 7 - echo "Matrícula: 20251ZL00130099">> info_aluno.txt
+ 8 - git status
+ 9 - git add info_aluno.txt
+10 - git commit -m "Adição do arquivo com nome do aluno e matrícula"
+11 - Criação do repositório no GitHub
+	|-> 11.1 - Logar na conta do GitHub
+	|-> 11.2 - Criar um novo repositório com o nome de "curso-git-embarcatech"
+12 - git remote add origin https://github.com/micaelbalza/curso-git-embarcatech.git
+13 - git branch -M main
+14 - git push -u origin main
+15 - notepad comandos.txt
+	|-> 15.1 - Editando o arquivo com as informações (atual etapa)
+
+------------ Comandos futuros a edição deste arquivo------
+16 - git status
+17 - git add comandos.txt
+18 - git commit -m "Adição do arquivo comandos.txt contendo uma lista de comando utilizados na atividade"
+19 - git push
+
+
+
+
+
+
+
+------------------------------- Comandos aplicados no CMD-----------------------------------
+
+
+PS C:\Users\micae\OneDrive\Desktop> mkdir curso-git-embarcatech
+
+
+    Diretório: C:\Users\micae\OneDrive\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        24/04/2025     10:27                curso-git-embarcatech
+
+
+PS C:\Users\micae\OneDrive\Desktop> cd curso-git-embarcatech
+PS C:\Users\micae\OneDrive\Desktop\curso-git-embarcatech> git init
+Initialized empty Git repository in C:/Users/micae/OneDrive/Desktop/curso-git-embarcatech/.git/
+PS C:\Users\micae\OneDrive\Desktop\curso-git-embarcatech> git config user.name "Micael Balza"
+PS C:\Users\micae\OneDrive\Desktop\curso-git-embarcatech> git config user.email "micaelbalza@hotmail.com"
+PS C:\Users\micae\OneDrive\Desktop\curso-git-embarcatech> echo "Nome: Micael Balza" > info_aluno.txt
+PS C:\Users\micae\OneDrive\Desktop\curso-git-embarcatech> echo "Matrícula: 20251ZL00130099">> info_aluno.txt
+PS C:\Users\micae\OneDrive\Desktop\curso-git-embarcatech> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        info_aluno.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\micae\OneDrive\Desktop\curso-git-embarcatech> git add info_aluno.txt
+PS C:\Users\micae\OneDrive\Desktop\curso-git-embarcatech> git commit -m "Adição do arquivo com nome do aluno e matrícula"
+[master (root-commit) 2fd27cb] Adição do arquivo com nome do aluno e matrícula
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 info_aluno.txt
+PS C:\Users\micae\OneDrive\Desktop\curso-git-embarcatech> git remote add origin https://github.com/micaelbalza/curso-git-embarcatech.git
+PS C:\Users\micae\OneDrive\Desktop\curso-git-embarcatech> git branch -M main
+PS C:\Users\micae\OneDrive\Desktop\curso-git-embarcatech> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 328 bytes | 164.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/micaelbalza/curso-git-embarcatech.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\micae\OneDrive\Desktop\curso-git-embarcatech> notepad comandos.txt
